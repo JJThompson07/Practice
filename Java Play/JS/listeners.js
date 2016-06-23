@@ -15,6 +15,3 @@ function add() {
 	addSum.innerHTML=one+two;
 }
 
-numOne.addEventListener('click',function(){
-alert("hi");
-});
