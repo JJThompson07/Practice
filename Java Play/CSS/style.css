@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,500);
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.6;
+	position: relative;
+	/*background: url(../images/doodle.jpg) center;*/
+	background-color: #ffffff;
+
+
+}
+
+header {
+/* now insert the background image, not tiled and covers page */
+	background-color: rgba(230,230,255,1);
+	color: #777777;
+	/*padding: 3% 10% 3% 15%;*/
+/* add a fixed height above the vh mark for anybrowser that does not support vh i.e. ie8 */
+	/*height: 300px;*/
+/* set the height to the full height of the browser */
+	height: 20vh;
+/* viewport height = vh */
+/* the computer only responds to the last written code for a command on the css/html/javascript page... e.g. different heights */
+
+	width: 100%;
+	/*display: inline;*/
+	position: fixed;
+	top: 0;
+	left:0;
+
+	z-index: 10;
+/* we use steps of 10 to make it helpfuls to position other tags inbetween at a later date*/
+/* add a shadow to the header --- adds depth */
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+}
+
+.intro img{
+
+	border-radius: 35%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	margin: 50px 0 0 0;
+}
+
+a {
+	margin: 0 0 100px 0;
+	padding: 0 0 100px 0;
+	text-decoration: none;
+	color: rgba(75,100,255,1);
+}
+
+nav a {
+	margin: 150px 5px 0 5px;
+}
+
+a:hover {
+	color: rgba(255,100,75,1);
+
+}
+
+.intro {
+	max-width: 900px;
+	margin : 20vh auto 0 auto;
+	color: #ffffff;
+
+
+}
+
+
+#checklist {
+	margin: 25px auto 50px auto;
+	max-width: 500px;
+	text-transform: capitalize;
+}
+
+
+h1 {
+	font-size: 65px;
+	font-weight: 700;
+	color: #000000;	
+	text-transform: capitalize; 
+
+}
+
+h4 {
+	color: #777777;
+	font-weight: 500;
+	font-size: 22px;
+	text-transform: capitalize;
+	padding: 25px 0 25px 0;
+}
+
+h5 {
+	color: #000000;
+	position: relative;
+	left: 0%;
+}
+
+h5 a {
+	color: #ccccff;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 500;
+
+}
+
+h5 a:hover {
+	color: #ffffff;
+	font-size: 30px;
+}
+
+footer {
+	background-color: #ffffff;
+	background-size: cover;
+	background-position: center;
+	height: 10vh;
+	width: 100%;
+	padding: 25px 0 0 0;
+	position: fixed;
+	bottom: 0;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+p {
+	max-width: 725px;
+	margin: 0 auto 0 auto;
+	font-weight: 500;
+	font-size: 32px;
+}
+
+blockquote {
+	text-transform: capitalize;
+	color: #333333;
+	text-shadow:#ffffff 2px 2px 0;
+	font-weight: 500;
+	margin: 10px 0 0 0;
+}
+
+.blog img {
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+
+main {
+	margin: 175px 0 0 0;
+}
+
+input {
+	max-width: 250px;
+}
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}
+
+.hide {
+	display: none;
+}
